@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func fiboEvenSum(n int) int {
+func fiboEvenSum() int {
 	sum := 0
 	a := 1
 	b := 1
@@ -21,5 +21,5 @@ func fiboEvenSum(n int) int {
 }
 
 func main() {
-	fmt.Println(fiboEvenSum(43))
+	fmt.Println(fiboEvenSum())
 }
