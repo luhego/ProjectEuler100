@@ -2,12 +2,12 @@ package main
 
 import "fmt"
 
-func fiboEvenSum() int {
+func fiboEvenSum(limit int) int {
 	sum := 0
 	a := 1
 	b := 1
 	var temp int
-	for b <= 4000000 {
+	for b <= limit {
 		temp = a
 		a = b
 		b = a + temp
@@ -21,5 +21,5 @@ func fiboEvenSum() int {
 }
 
 func main() {
-	fmt.Println(fiboEvenSum())
+	fmt.Println(fiboEvenSum(4_000_000))
 }
