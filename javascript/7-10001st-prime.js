@@ -31,4 +31,4 @@ function nthPrime(n) {
   return i;
 }
 
-console.log(nthPrime(10001));
+console.log(nthPrime(1000000));

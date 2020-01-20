@@ -40,5 +40,5 @@ func nthPrime(n int) int {
 }
 
 func main() {
-	fmt.Println(nthPrime(10001))
+	fmt.Println(nthPrime(1000000))
 }
